@@ -1,0 +1,205 @@
+*  {   margin:0px;  padding:0;   }
+
+html, body {
+
+    font-family: Louis George Cafe Light;
+    color: black;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  /*
+    background-image: url(/imagenes/formularios/PROYECTO.png);
+    background-size: auto;
+    background-position: center center;
+*/
+}
+
+#centrar { margin:  0 auto; 
+    padding: 0px; width: 1300px; height:100%;  }
+
+
+#cabeza {
+    background-color: rgb(0, 0, 0);
+    color: rgb(5, 180, 247);
+    height: 170px;
+    width: 100%;
+    opacity: 0,5;
+}
+h1{
+    color: rgb(94, 23, 235);
+}
+
+h2{
+    color: rgb(5, 180, 247);
+    font-size: 55px;
+}
+
+h4{
+    color: rgb(5, 180, 247);
+}
+
+h5{
+    color: rgb(86, 115, 147);
+}
+
+#cuerpo{
+    height: 100%;
+    padding-top: 4%;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#pie{
+    padding-top: 3%;
+    height: 320px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    position: absolute;
+
+}
+
+/*Enlaces pie de página*/
+
+#contenedortodologos{
+    height: 50px;
+    width: 130px;
+    margin: 0 4px;
+    display: inline-block;
+}
+
+#contenedorsociallogos{
+    height: 35px;
+    width: 35px;
+    /*background-color: pink;*/
+    float: left;
+    margin: 0 4px;
+}
+
+#contenedorlogo{
+    height: 110px;
+    width: 160px;
+    float: left;
+    margin: 0 18px;
+}
+
+#contenedorlogo2{
+    height: 100px;
+    width: 130px;
+    float: right;
+    margin-right: 20px;
+}
+
+#contenedor1{
+    height: 50%;
+}
+
+#contenedor2{
+    height: 170px;
+
+}
+/*Menu*/
+
+#menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+
+  #menu li {
+    margin: 0 10px;
+  }
+  
+  #menu a {
+    text-decoration: none;
+    color: rgb(5, 180, 247);
+  }
+
+  #menu a:hover {
+    color: rgb(140, 94, 232);
+  }
+
+  .menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1000px;
+	width:100%;
+}
+
+/*Imagenes*/
+
+.contenedor{
+    display: inline-block;
+    padding:15%;
+    box-sizing: border-box;
+
+  }
+  .tamano-1{
+    width:150px;
+    height:150px;
+  }
+  .tamano-2{
+    width:150px;
+    height:200px;
+  }
+  .tamano-3{
+    width:150px;
+    height:250px;
+  }
+  img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    border-radius: 6px;
+  }
+
+  /*formulario*/
+
+  #contenedorformulario{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+    align-items: center;
+    color: rgb(140, 94, 232);
+    border-radius: 25px;
+    border: solid;
+  }
+
+  #contenedorfor2{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+  }
+
+  #text{
+    width: 200px;
+  }
+
+  #email{
+    width: 400px;
+  }
+
+  #mensaje{
+    width: 400px;
+    height: 200px;
+  }
+
+  ::placeholder {
+    color: rgb(140, 94, 232);
+  }
+
+  #enviar{
+    width: 50px;
+    height: 50px;
+  }
+
+
